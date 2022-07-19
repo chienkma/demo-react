@@ -41,5 +41,7 @@ p {
     background: rgb(192, 81, 73);
     font-size: 22px;
     font-weight: 400;
-
+}
+.submit:hover {
+    background: rgb(185, 6, 6);
 }
