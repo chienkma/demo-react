@@ -1,0 +1,64 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #999;
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+}
+.ui_form {
+    margin: 20px 30px;
+}
+.field {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+.field label{
+    font-size: 16px;
+}
+.field input {
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+p {
+    font-size: 14px;
+    color: red;
+}
+.btn_create,
+.btn_submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.submit {
+    padding: 10px 40px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    background: rgb(192, 81, 73);
+    font-size: 22px;
+    font-weight: 400;
+}
+a.link {
+    color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    cursor: pointer;
+}
+.create_acc {
+    padding: 10px 20px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    background: rgb(192, 81, 73);
+    font-size: 22px;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+}
