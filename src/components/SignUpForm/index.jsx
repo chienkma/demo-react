@@ -106,7 +106,7 @@ function SignUpForm() {
           </div>
           <p>{formErrors.confirm_password}</p>
           <div className='btn_submit'>
-            <button className='submit'>Submit</button>
+            <button className='submit'>Sign Up</button>
           </div>
         </div>
       </form>
