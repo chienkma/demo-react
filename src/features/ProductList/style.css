@@ -1,0 +1,18 @@
+.wrapper{
+    margin-top: 50px;
+}
+.wrapper h1 {
+    font-size: 22px;
+}
+.product {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+.product--slide{
+    width: 24%;
+}
+.product--card{
+   width: 75%;
+}

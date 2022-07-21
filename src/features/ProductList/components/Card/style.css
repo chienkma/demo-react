@@ -1,0 +1,40 @@
+.card{
+
+}
+.card__img{
+    position: relative;
+}
+.card__img::after{
+    content:"-25%";
+    position: absolute;
+    background: red;
+    top: 10px;
+    left: 10px;
+    padding: 5px 10px;
+
+}
+.card__img:hover{
+    transform: scale(101%);
+}
+.card__text{
+display: flex;
+flex-direction: column;
+gap: 10px;
+
+}
+.card__text--title{
+ margin-top: 20px;
+ font-weight: normal;
+ font-size: 16px;
+ cursor: pointer;
+}
+.card__text--title:hover {
+    color: red;
+}
+.card__text--price{
+    color: rgba(0, 0, 0, 0.678);
+}
+.card__text--sale{
+    text-decoration-line:line-through;
+    color: #999;
+}
