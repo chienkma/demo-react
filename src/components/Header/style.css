@@ -14,9 +14,6 @@
     height: 56px;
 
 }
-.header__menu{
-
-}
 .header__menu--list {
     display: flex;
     list-style: none;

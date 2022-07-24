@@ -12,7 +12,7 @@ import "./style.css";
 import { Navigation } from "swiper";
 import Card from "../Card";
 
-export default function CardList() {
+export default function CardListSlide() {
   return (
     <Swiper
       navigation={true}

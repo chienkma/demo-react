@@ -1,8 +1,14 @@
 .card{
 
+    height: 100%;
+
 }
 .card__img{
     position: relative;
+}
+.card__img img {
+    object-fit: contain;
+    width: 100%;
 }
 .card__img::after{
     content:"-25%";
